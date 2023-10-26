@@ -15,3 +15,9 @@ I WANT TO determine the skill-set and experience of a developer
 SO THAT I can maximize my commission with a targeted placement.
 
 AS A software developer
+HOMEWORK for next time
+...
+
+## Inspiration
+
+https://startbootstrap.com/previews/freelancer
