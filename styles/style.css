@@ -103,7 +103,7 @@ label {
 
 /* *********************** main ************************* */
 .bg-dark {
-    background-color: var(--alternate-background);
+    background-color: var(--alternate-background) !important; /* bootstrap override */
 }
 
 .profile {
