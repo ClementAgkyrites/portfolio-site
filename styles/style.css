@@ -172,36 +172,9 @@ main {
     opacity: 1;
 }
 
-.form-row {
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.form-row.no-stretch {
-    align-items: flex-start;
-}
-
-.send-button {
-    background-color: white;
-    padding: 0.75rem;
-    font-size: 1.25rem;
-    cursor: pointer;
-    transition: 0.25s;
-}
-
-.send-button:hover,
-.send-button:focus {
-    transform: translateY(-0.25rem);
-    color: var(--primary-font-hover);
-    border-color: var(--alternate-background);
-    background-color: var(--primary-background-hover);
-}
-
 @media screen and (max-width: 992px) {
     html {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     input, textarea {
@@ -226,15 +199,15 @@ main {
     .page-menu-container {
         display: none;
     }
-
-    .form-row {
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 576px) {
     .footer-links-container {
         flex-direction: column;
         align-items: center;
+    }
+
+    html {
+        font-size: 16px
     }
 }
