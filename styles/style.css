@@ -38,7 +38,6 @@ h3 {
 input, textarea {
     padding: 0.5rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
 }
 
 /* *********************** Page level styles ************************* */
@@ -101,6 +100,24 @@ label {
     color: var(--hover-primary-accent)
 }
 
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: var(--header-footer-font);
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: var(--hover-primary-accent);
+}
+
+main {
+    margin-top: 55px; /* fixed-top navbar */
+}
+
 /* *********************** main ************************* */
 .bg-dark {
     background-color: var(--alternate-background) !important; /* bootstrap override */
@@ -153,6 +170,7 @@ label {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    padding-left: 0rem;
 }
 
 .project-item {
@@ -185,7 +203,7 @@ label {
 }
 
 .send-button {
-    background-color: none;
+    background-color: white;
     padding: 0.75rem;
     font-size: 1.25rem;
     cursor: pointer;
@@ -202,11 +220,15 @@ label {
 
 @media screen and (max-width: 992px) {
     html {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     input, textarea {
         font-size: 1rem;
+    }
+
+    main {
+        margin-top: 35px;
     }
 }
 
