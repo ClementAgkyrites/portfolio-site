@@ -21,7 +21,8 @@ I WANT TO determine the skill-set and experience of a developer
 SO THAT I can maximize my commission with a targeted placement.
 
 AS A software developer
-HOMEWORK for next time
+I WANT TO have a model
+SO THAT I can build my own portfolio site.
 ...
 
 ## Inspiration
