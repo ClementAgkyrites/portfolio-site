@@ -14,6 +14,7 @@
 
 /* *********************** Reset ************************* */
 html {
+    scroll-padding-top: 70px;    
     font-size: 24px;
 }
 
@@ -172,8 +173,11 @@ main {
     opacity: 1;
 }
 
+
+
 @media screen and (max-width: 992px) {
     html {
+        scroll-padding-top: 50px;
         font-size: 18px;
     }
 
