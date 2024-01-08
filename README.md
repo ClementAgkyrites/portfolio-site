@@ -14,14 +14,6 @@ Ideas for Future Improvement: Implementing personal description, Projects, Priva
 
 ## User stories
 
-Format:
-
-```
-AS A <user_type/persona>  (Who?)
-I WANT TO <action>        (What?)
-SO THAT <goal>.           (Why?)
-```
-
 Stories:
 
 ```
