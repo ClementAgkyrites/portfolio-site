@@ -1,3 +1,5 @@
+# Hosting: https://clementhagiavarvarites.github.io/portfolio-site/
+
 # Portfolio Site
 
 By: Clement (Zadyn) Kear
@@ -9,8 +11,6 @@ Functionality: "Privacy" link at the bottom of the page takes the user to the Pr
 Technologies Used: HTML, CSS, and Bootstrap.
 
 Ideas for Future Improvement: Implementing personal description, Projects, Privacy Policy, and a System to receive information from the contact form Once the other Projects are done.
-
-Hosting: https://clementhagiavarvarites.github.io/portfolio-site/
 
 ## User stories
 
